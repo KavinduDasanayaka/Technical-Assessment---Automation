@@ -1,0 +1,13 @@
+
+#Node modules and environment variables
+node_modules/
+.env
+
+# Playwright
+/test-results/
+/playwright-report/
+screenshots/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
