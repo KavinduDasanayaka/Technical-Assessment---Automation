@@ -2,7 +2,7 @@
 
 Automated test suite for https://www.saucedemo.com as part of the Vertecza QA Intern Assignment.
 
-[![My Skills](https://skillicons.dev/icons?i=js,nodejs&theme=light)]
+![My Skills](https://skillicons.dev/icons?i=js,nodejs&theme=light)
 
 ## Tech Stack
 - Playwright (JavaScript)
