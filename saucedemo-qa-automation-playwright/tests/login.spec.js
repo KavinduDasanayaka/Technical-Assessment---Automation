@@ -23,7 +23,7 @@ test.describe('Login Functionality Tests', () => {
     await page.click('[data-test="login-button"]');
 
     await expect(page).toHaveURL(`${BASE_URL}/inventory.html`);
-    await expect(page.locator('[data-test="title"]')).toContainText('Products');
+    await expect(page.locator('[data-test="secondary-header"]')).toContainText('Products');
   });
 
   test('TC_02 - Check login with incorrect username and password', async ({ page }) => {
@@ -38,7 +38,7 @@ test.describe('Login Functionality Tests', () => {
     await expect(page.locator('[data-test="error"]')).toContainText(
       'Epic sadface: Username and password do not match any user in this service'
     );
-    await expect(page).toHaveURL(`${BASE_URL}/`);
+    await expect(page).toHaveURL(`${BASE_URL}`);
   });
 
   test('TC_03 - Check login with empty username and password', async ({ page }) => {
@@ -49,6 +49,6 @@ test.describe('Login Functionality Tests', () => {
     await expect(page.locator('[data-test="error"]')).toContainText(
       'Epic sadface: Username is required'
     );
-    await expect(page).toHaveURL(`${BASE_URL}/`);
+    await expect(page).toHaveURL(`${BASE_URL}`);
   });
 });
