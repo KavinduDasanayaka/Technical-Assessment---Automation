@@ -14,7 +14,7 @@ Automated test suite for https://www.saucedemo.com as part of the Vertecza QA In
                      `cd Technical-Assessment---Automation`
                      `cd saucedemo-qa-automation-playwright`
 5. Install dependencies: `npm install`| `npm i`
-6. Include .env file at the root of the project.
+6. Include .env file at the root of the project.(Make sure downloaded env file is named as .env)
 
 ## Run Tests
 - All tests: `npx playwright test`
