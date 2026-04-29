@@ -30,4 +30,5 @@ Automated test suite for https://www.saucedemo.com as part of the Vertecza QA In
 
 ## Execution summary
 <img width="1156" height="682" alt="image" src="https://github.com/user-attachments/assets/2ae1c43f-a352-4919-9428-3ec1b5349af3" />
+<img width="354" height="614" alt="image" src="https://github.com/user-attachments/assets/f0f49d57-a243-4a34-8e93-6e1d3edf8e75" />
 
