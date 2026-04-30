@@ -1,6 +1,6 @@
 # SauceDemo QA Automation — Playwright
 
-Automated test suite for https://www.saucedemo.com as part of the Vertecza QA Intern Assignment.
+Automated test suite for https://www.saucedemo.com
 
 ![My Skills](https://skillicons.dev/icons?i=js,nodejs&theme=light)
 
