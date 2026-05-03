@@ -10,7 +10,7 @@ Automated test suite for https://www.saucedemo.com
 
 ## Setup Instructions
 1. Clone the repo: `git clone https://github.com/KavinduDasanayaka/Playwright-API-Automation-Suite.git`
-2. Navigate to the folder: `cd Technical-Assessment---Automation/saucedemo-qa-automation-playwright`
+2. Navigate to the folder: `cd "Playwright-API-Automation-Suite/saucedemo-qa-automation-playwright"`
 5. Install dependencies: `npm install`| `npm i`
 6. installs browser binaries  `npx playwright install`
 7. Include .env file at the root of the project.(Make sure downloaded env file is named as .env)
